@@ -17,6 +17,8 @@ local preview_window = nil
 local mappings = {
   ['<C-j>'] = '<Cmd>lua corpus.preview_next()<CR>',
   ['<C-k>'] = '<Cmd>lua corpus.preview_previous()<CR>',
+  ['<C-n>'] = '<Cmd>lua corpus.preview_next()<CR>',
+  ['<C-p>'] = '<Cmd>lua corpus.preview_previous()<CR>',
   ['<Down>'] = '<Cmd>lua corpus.preview_next()<CR>',
   ['<Up>'] = '<Cmd>lua corpus.preview_previous()<CR>',
 }
